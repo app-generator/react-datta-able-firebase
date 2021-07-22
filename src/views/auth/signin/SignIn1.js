@@ -3,8 +3,6 @@ import { Card } from 'react-bootstrap';
 
 import Breadcrumb from '../../../layouts/AdminLayout/Breadcrumb';
 
-import { CopyToClipboard } from 'react-copy-to-clipboard';
-
 import FirebaseLogin from './FirebaseLogin';
 
 const Signin1 = () => {

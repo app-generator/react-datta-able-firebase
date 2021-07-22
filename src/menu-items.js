@@ -125,7 +125,7 @@ const menuItems = {
                     children: [
                         {
                             id: 'signup-2',
-                            title: 'Sign UP',
+                            title: 'Sign UP (template)',
                             type: 'item',
                             url: '/auth/signup-2',
                             target: true,
@@ -133,7 +133,7 @@ const menuItems = {
                         },
                         {
                             id: 'signin-2',
-                            title: 'Sign IN',
+                            title: 'Sign IN (template)',
                             type: 'item',
                             url: '/auth/signin-2',
                             target: true,
@@ -148,63 +148,37 @@ const menuItems = {
                     url: '/sample-page',
                     classes: 'nav-item',
                     icon: 'feather icon-sidebar'
-                },
-                {
-                    id: 'menu-level',
-                    title: 'Menu Levels',
-                    type: 'collapse',
-                    icon: 'feather icon-menu',
-                    children: [
-                        {
-                            id: 'menu-level-1.1',
-                            title: 'Menu Level 1.1',
-                            type: 'item',
-                            url: '#!'
-                        },
-                        {
-                            id: 'menu-level-1.2',
-                            title: 'Menu Level 2.2',
-                            type: 'collapse',
-                            children: [
-                                {
-                                    id: 'menu-level-2.1',
-                                    title: 'Menu Level 2.1',
-                                    type: 'item',
-                                    url: '#'
-                                },
-                                {
-                                    id: 'menu-level-2.2',
-                                    title: 'Menu Level 2.2',
-                                    type: 'collapse',
-                                    children: [
-                                        {
-                                            id: 'menu-level-3.1',
-                                            title: 'Menu Level 3.1',
-                                            type: 'item',
-                                            url: '#'
-                                        },
-                                        {
-                                            id: 'menu-level-3.2',
-                                            title: 'Menu Level 3.2',
-                                            type: 'item',
-                                            url: '#'
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    id: 'disabled-menu',
-                    title: 'Disabled Menu',
-                    type: 'item',
-                    url: '#',
-                    classes: 'nav-item disabled',
-                    icon: 'feather icon-power'
                 }
             ]
-        }
+        },
+        {
+            id: 'resources',
+            title: 'Resources',
+            type: 'group',
+            icon: 'icon-pages',
+            children: [
+                {
+                    id: 'product-page',
+                    title: 'Download Product',
+                    type: 'item',
+                    url: 'https://appseed.us/product/react-firebase-datta-able',
+                    classes: 'nav-item',
+                    icon: 'feather icon-download',
+                    target: true,
+                    external: true
+                },
+                {
+                    id: 'support',
+                    title: 'Get Support',
+                    type: 'item',
+                    icon: 'feather icon-help-circle',
+                    classes: 'nav-item',
+                    url: 'https://appseed.us',
+                    target: true,
+                    external: true
+                }
+            ]
+        }        
     ]
 };
 
