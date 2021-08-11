@@ -31,7 +31,7 @@ PRO versions include **Premium [React Kits](https://appseed.us/apps/react)**, Li
 
 <br /> 
 
-![React Firebase Datta Able - Open-source full-stack seed project crafted by CodedThemes and AppSeed.](https://user-images.githubusercontent.com/51070104/126618290-61f4d868-3f91-48ef-ae14-d62f1f753e64.png)
+![React Firebase Datta Able - Open-source full-stack seed project crafted by CodedThemes and AppSeed.](https://user-images.githubusercontent.com/51070104/129069147-80f810e7-74cb-425b-9b04-03bc501e8f7a.png)
 
 <br />
 
